@@ -1,0 +1,68 @@
+用户基本信息表  users
+
+主键 Uid
+用户名称 Uname
+用户性别 Usex
+用户账号 Uaccount
+用户密码 Upassword
+用户身高 Uheight
+用户三围 UMeasurement
+用户头像 Uavatar
+用户体重 Uweight
+
+
+编撰师信息表  Editor-users
+
+编撰师工号（主键） EUid
+编撰师名称 EUname
+编撰师性别 EUsex
+编撰师账号 EUaccount
+编撰师密码 EUpassword
+编撰师入会时间 EUAdmission-time
+编撰师头像 EUavatar
+编撰师发帖数 EUsend-post-number
+编撰师被关注量  Eufollowimg-number
+
+
+帖子信息表  post
+
+帖子名称 Pname
+帖子风格 Pstyle
+帖子发布时间 Psend-time
+帖子浏览量 Pscan-number
+帖子点赞个数 Plike-number
+帖子转发次数 Pshare-number
+帖子评论人数 Pdiscuss-number
+帖子收藏量 Pkeep-number
+帖子内容 Pcontent
+帖子发布者（外键） Pcreator
+
+
+用户评论表  post-discuss
+
+用户账号  Uaccount
+评论时间  Pdiscuss-time
+评论内容  pdiscuss-content
+
+
+用户收藏表 post-like
+
+用户账号  Uaccount
+收藏时间  post-like-time
+
+
+编撰师傅发布表  Editor-users
+
+编撰师工号 EUid
+发布时间  EUsend-time
+发布类别  EUsend-style
+
+
+
+
+
+
+
+
+
+
